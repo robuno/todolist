@@ -57,7 +57,12 @@ form input, form button {
 }
 
 form input {
-  padding:0 0 0 1rem;
+  padding: 0 6px;
+}
+
+form .dateInput{
+  flex: 1.6;
+  margin:0;
 }
 
 #countertodo {
@@ -146,6 +151,12 @@ ul li button:disabled {
   cursor: not-allowed;
 }
 
+li .taskDate {
+  font-style: italic;
+  color: #5cd0d0;
+  margin: .4rem 1.4rem;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -170,6 +181,10 @@ ul li button:disabled {
 
 label {
   cursor: pointer;
+}
+
+#todosdate {
+  background-color: red;
 }
 
 

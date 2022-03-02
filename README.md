@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To Do List Screenshot
 
-![Screenshot1](https://github.com/robuno/todolist/blob/master/screenshots/ss1.png)
+![Screenshot1](https://github.com/robuno/todolist/blob/master/screenshots/ss_v2_.png)
 
 ## Available Scripts
 

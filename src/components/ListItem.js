@@ -35,8 +35,12 @@ export default function ListItem({todo,id, checkComplete, handleEditTodos}) {
               <input type="checkbox" id={id} checked={todo.complete} 
               onChange={() => checkComplete(id)} />
                 {todo.name}
+                <p class="taskDate">Due: {todo.date}</p>
+                
           </label>
+          
           <button disabled = {todo.complete} onClick={handleOnEdit}>Edit</button>
+          
       </li>
     )
   }
